@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Inter } from "next/font/google";
 import { TopNavBar } from "@/components/layout/top-nav-bar";
 import { BottomNavBar } from "@/components/layout/bottom-nav-bar";
+import { Footer } from "@/components/layout/footer";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body className="bg-surface text-on-surface font-body antialiased min-h-full flex flex-col">
         <TopNavBar />
         <div className="flex-1">{children}</div>
+        <Footer />
         <BottomNavBar />
       </body>
     </html>

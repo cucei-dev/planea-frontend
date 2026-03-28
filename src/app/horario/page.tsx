@@ -11,7 +11,7 @@ export default function HorarioPage() {
   );
 
   return (
-    <main className="max-w-7xl mx-auto px-6 py-10 mb-24 md:mb-12">
+    <main className="max-w-7xl mx-auto px-6 py-10">
       {/* Header */}
       <section className="mb-12">
         <h1 className="font-headline font-bold text-4xl md:text-5xl tracking-tight text-on-surface mb-2">

@@ -1,10 +1,8 @@
-import { AboutFooter } from "@/components/layout/about-footer";
 import { MaterialIcon } from "@/components/ui/material-icon";
 
 export default function AboutPage() {
   return (
-    <>
-      <main className="pt-24 pb-20">
+    <main className="pt-24 pb-20">
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-8 pt-16 pb-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -199,7 +197,5 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-      <AboutFooter />
-    </>
   );
 }

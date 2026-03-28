@@ -6,7 +6,7 @@ import { MaterialIcon } from "@/components/ui/material-icon";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto px-6 py-12 mb-24 md:mb-12">
+    <main className="max-w-7xl mx-auto px-6 py-12">
       <HeroSection />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         <StatsSidebar />
