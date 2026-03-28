@@ -167,6 +167,15 @@ export const calendarEvents: CalendarEventData[] = [
     horaFin: "15:00",
     colorScheme: "complementary",
   },
+  // Taller Extra — Sáb 09:00 (workshop block spanning 180px)
+  {
+    materia: "Taller Extra",
+    aula: "",
+    dia: "Sáb",
+    horaInicio: "09:00",
+    horaFin: "13:00",
+    colorScheme: "workshop",
+  },
 ];
 
 export const calendarDays = [

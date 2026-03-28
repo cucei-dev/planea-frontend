@@ -54,7 +54,7 @@ export function CalendarGrid() {
                 return (
                   <div
                     key={`${slot.hour}-${day.short}`}
-                    className={`relative border-r border-outline-variant/5 ${isEvenCol ? "bg-surface-container-low/30" : ""}`}
+                    className={`relative border-outline-variant/5 ${dayIdx < calendarDays.length - 1 ? "border-r" : ""} ${isEvenCol ? "bg-surface-container-low/30" : ""}`}
                   >
                     {event && <CalendarEvent event={event} />}
                   </div>

@@ -21,7 +21,16 @@ export function BottomNavBar() {
                 : "flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 px-5 py-2 hover:text-primary dark:hover:text-red-300 transition-transform duration-300 ease-out active:scale-90"
             }
           >
-            <span className="material-symbols-outlined">{item.icon}</span>
+            <span
+              className="material-symbols-outlined"
+              style={
+                isActive
+                  ? { fontVariationSettings: "'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24" }
+                  : undefined
+              }
+            >
+              {item.icon}
+            </span>
             <span className="font-body text-[10px] uppercase tracking-widest font-semibold mt-1">
               {item.label}
             </span>
