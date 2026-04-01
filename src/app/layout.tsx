@@ -27,10 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="es"
-      className={`${manrope.variable} ${inter.variable} light`}
-    >
+    <html lang="es" className={`${manrope.variable} ${inter.variable} light`}>
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
@@ -42,6 +39,13 @@ export default function RootLayout({
         <div className="flex-1">{children}</div>
         <Footer />
         <BottomNavBar />
+        <script>
+          {`
+            if (typeof navigator.serviceWorker !== "undefined") {
+              navigator.serviceWorker.register("/service-worker.js");
+            }
+          `}
+        </script>
       </body>
     </html>
   );

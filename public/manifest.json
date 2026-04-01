@@ -1,0 +1,76 @@
+{
+  "name": "Agenda CUCEI.DEV",
+  "short_name": "Agenda UDG",
+  "start_url": "https://agenda.cucei.dev",
+  "display": "standalone",
+  "description": "Buscador de materias y horarios académicos - Universidad de Guadalajara",
+  "lang": "es",
+  "dir": "auto",
+  "theme_color": "#7D1A21",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "\/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image\/png",
+      "density": "0.75"
+    },
+    {
+      "src": "\/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image\/png",
+      "density": "1.0"
+    },
+    {
+      "src": "\/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image\/png",
+      "density": "1.5"
+    },
+    {
+      "src": "\/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image\/png",
+      "density": "2.0"
+    },
+    {
+      "src": "\/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image\/png",
+      "density": "3.0"
+    },
+    {
+      "src": "\/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image\/png",
+      "density": "4.0"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://agenda.cucei.dev/images/screenshots/landing.png",
+      "sizes": "1920x878",
+      "type": "image/png",
+      "description": "Pantalla de inicio de la aplicación."
+    },
+    {
+      "src": "https://agenda.cucei.dev/images/screenshots/horario_vacio.png",
+      "sizes": "1920x1112",
+      "type": "image/png",
+      "description": "Pantalla de horario vacío, sin materias agregadas."
+    },
+    {
+      "src": "https://agenda.cucei.dev/images/screenshots/resumen_horario.png",
+      "sizes": "1920x877",
+      "type": "image/png",
+      "description": "Pantalla de resumen de horarios académicos."
+    },
+    {
+      "src": "https://agenda.cucei.dev/images/screenshots/horario.png",
+      "sizes": "1920x877",
+      "type": "image/png",
+      "description": "Pantalla de horario completo con materias agregadas."
+    }
+  ]
+}
