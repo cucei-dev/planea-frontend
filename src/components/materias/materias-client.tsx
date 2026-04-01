@@ -81,7 +81,7 @@ export function MateriasClient() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Buscar materia por nombre o clave…"
+          placeholder="Buscar materia por nombre…"
           className="w-full pl-12 pr-4 py-3 rounded-2xl bg-surface-container-highest text-on-surface placeholder:text-on-surface-variant font-body text-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-[0_2px_8px_rgba(26,28,29,0.04)] transition"
         />
       </div>
